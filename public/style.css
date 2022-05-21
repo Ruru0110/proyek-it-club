@@ -1,0 +1,169 @@
+* {
+     text-decoration: none;
+     margin: 0px;
+     padding: 0px;
+}
+
+body{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Verdana',sans-serif;
+}
+
+.wrapper {
+     width: 1100px;
+     margin: auto;
+     position: relative;
+}
+
+.logo {
+     width: 1100px;
+     margin: auto;
+     position: relative;
+}
+
+.logo a {
+     font-size: 50px;
+     font-weight: bold;
+     float: left;
+     font-family: 'Optima';
+     color: #9e684e;
+}
+
+.menu {
+     float: right;
+}
+
+nav {
+     width: 100%;
+     margin: auto;
+     display: flex;
+     line-height: 80px;
+     position: sticky;
+     position: -webkit-sticky;
+     top: 0;
+     background: #ffe5d9;
+     ;
+     z-index: 1;
+}
+nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+
+nav ul li {
+     float: left;
+}
+
+nav ul li a {
+     color: rgb(180, 123, 52);
+     font-weight: bold;
+     text-align: center;
+     padding: 0px 16px 0px 16px;
+     text-decoration: none;
+}
+
+nav ul li a:hover {
+     text-decoration: underline;
+}
+
+section {
+     margin: auto;
+     display: flex;
+     margin-bottom: 50px;
+     margin-top: 30px;
+     margin-left: 30px;
+}
+
+.kolom {
+     margin-top: 50px;
+     margin-bottom: 50px;
+     margin-left: 30px;
+}
+
+.kolom .deskripsi {
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'comic sans-ms';
+     color: #9e684e;
+}
+
+h2 {
+     font-family: "Times New Roman", Times, serif;
+     font-weight: 800;
+     font-size: 100px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     color: #7a482f;
+     width: 110%;
+     line-height: 80px;
+}
+p {
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'comic sans-ms';
+     color: #9e684e;
+}
+
+
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+     margin-top: 10px;
+     margin-bottom: 30px;
+}
+section h3 {
+    text-align: center;
+    margin-top: 30px;
+	padding: 20px 0;
+	color:#7a482f
+}
+
+
+footer{
+	padding: 30px 0;
+	background-color:  #ebbea8;
+	color: #7a482f;
+	text-align: center;
+}
+.spek1 {
+     font-family: "Times New Roman", Times, serif;
+     font-weight: 20;
+     font-size: 20px;
+     margin-bottom: 50px;
+
+
+
+}
+.image/rumah1.jpg {
+     margin-top: 30px;
+}
+
+.contact p {
+    color: #666;
+    text-align: center;
+	word-spacing: 2px;
+	line-height: 25px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 180px;
+}
+
+h5 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+	padding: 20px 0;
+	color:#7a482f
+}
+
+section h1 {
+    text-align: center;
+    margin-top: 30px;
+	padding: 20px 0;
+    margin-left: 200px;
+	color:#7a482f
+}
